@@ -41,9 +41,19 @@
  
    //we can also change source i,e src
    // document.getElementById('myimage').src="img2.jpg";
+/*************************************************************************************************************/
+
+           /*Creating And appending new element using js */
+            
+           const newpara=document.createElement("p");
+           newpara.innerText="Brand new para";
+           
+        //now we have to append in any existing element
+        const container = document.getElementById("container");
+        container.append(newpara);
 
 
-
+      
 
 
 
